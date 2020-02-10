@@ -1,0 +1,96 @@
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo {
+      width: 200px;
+      height: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  .text {
+    position: absolute;
+    right: 640px;
+    top: 150px;
+    width: auto;  
+    text-align: center;
+    border: 0px solid red;
+  }
+
+  @media screen and (max-width: 992px) {
+    .text {
+      position: absolute;
+      right: 80px;
+      top: 150px;
+      width: auto;  
+      text-align: center;
+      border: 0px solid red;
+    }
+  
+  }
+
+  .logo-manual {
+    position: absolute;
+    right: 650px;
+    top: 20px;
+    width: 200px;
+    border: 0px solid #73AD21;
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .logo-manual {
+      position: absolute;
+      right: 100px;
+      top: 40px;
+      width: 200px;
+      border: 0px solid #73AD21;
+      padding: 0px;
+    }
+  
+  }
+
+  .footer-manual {
+    position: absolute;
+    top: 650px;
+    right: 350px;
+    width: auto;  
+    text-align: center;
+    border: 0px solid red;
+  }
+
+  @media screen and (max-width: 992px) {
+    .footer-manual {
+      position: absolute;
+      right: 10px;
+      top: 630px;
+      width: auto;  
+      text-align: center;
+      border: 0px solid red;
+    }
+  
+  }
+
+  .pred-image {
+    position: absolute;
+    right: 580px;
+    top: 250px;
+    width: 400px;
+    border: 5px solid rgb(255, 81, 0);
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .pred-image {
+      position: absolute;
+      right: 30px;
+      top: 200px;
+      width: 350px;
+      border: 0px solid #73AD21;
+      padding: 0px;
+    }
+  
+  }
