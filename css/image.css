@@ -55,8 +55,9 @@
 
   .footer-manual {
     position: absolute;
+    font-size: 15px;
     top: 650px;
-    right: 350px;
+    right: 500px;
     width: auto;  
     text-align: center;
     border: 0px solid red;
@@ -65,6 +66,7 @@
   @media screen and (max-width: 992px) {
     .footer-manual {
       position: absolute;
+      font-size: 15px;
       right: 10px;
       top: 600px;
       width: auto;  
