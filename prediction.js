@@ -22,7 +22,7 @@ window.onload = function() {
         // image = console.log(data);
         var img = document.getElementById("predImage");
         var loader = document.getElementById("loadingRing");
-        loader.setAttribute("class", '')
+        // loader.setAttribute("class", '')
         img.setAttribute("src", url);
     });
 }
