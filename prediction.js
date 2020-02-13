@@ -21,7 +21,7 @@ window.onload = function() {
     getData().then((url) => {
         // image = console.log(data);
         var img = document.getElementById("predImage");
-        var loader = document.getElementById("loadingRing");
+        // var loader = document.getElementById("loadingRing");
         // loader.setAttribute("class", '')
         img.setAttribute("src", url);
     });
