@@ -56,7 +56,7 @@
   .footer-manual {
     position: absolute;
     font-size: 15px;
-    top: 700px;
+    top: 900px;
     right: 500px;
     width: auto;  
     text-align: center;
@@ -68,7 +68,7 @@
       position: absolute;
       font-size: 15px;
       right: 10px;
-      top: 600px;
+      top: 800px;
       width: auto;  
       text-align: center;
       border: 0px solid red;
