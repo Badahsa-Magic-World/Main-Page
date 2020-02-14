@@ -13,7 +13,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 var db = firebase.firestore();
-var code = 'predImage';
+var code = '101010'; // client's code
 console.log("Firebase app created !!!!");
 
 
