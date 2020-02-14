@@ -13,7 +13,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 var db = firebase.firestore();
-
+var code = 'predImage';
 console.log("Firebase app created !!!!");
 
 
@@ -29,10 +29,10 @@ window.onload = function() {
 
 
 const getData = async() => {
-    const doc = await db.doc(`prediction/predImage`).get()
+    const doc = await db.doc("prediction/" + code).get();
     const data = doc.data()
     if (!data) {
-        console.error('member does not exist')
+        console.error('document does not exist')
         return
     }
     return data['image'];
